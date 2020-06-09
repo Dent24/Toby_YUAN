@@ -1,0 +1,46 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 微軟正黑體;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  background-color: #555555;
+  width: 100%;
+  position: fixed;
+}
+
+nav div {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  color: white;
+}
+
+nav div span {
+  padding: 0px 30px;
+}
+
+nav div a {
+  padding: 0px 15px;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+nav div a:hover {
+  color: #d87920;
+}
+
+#banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */
